@@ -1,0 +1,8 @@
+body {
+    background: #37474f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-wrapper .brand-logo img {
+    height: 64px;
+}
