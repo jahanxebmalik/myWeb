@@ -11,10 +11,40 @@ body {
     height: 700px;
 }
 
+.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+    bottom: 200px;
+    margin-left: 60px;
+}
+
+span#name {
+    display: block;
+    /* font-size: 2rem; */
+    /* color: #1d576a; */
+    font-weight: 600;
+    padding-top: 10px;
+}
+
 @media (max-width: 768px) {
     .nav-wrapper .brand-logo img {
         height: 50px;
         margin-top: 0.4rem;
+    }
+
+    .carousel.carousel-slider .carousel-fixed-item.with-indicators {
+        bottom: 42px;
+        margin-left: 20px;
+    }
+
+    span#name {
+        display: block;
+        font-size: 2rem;
+        /* color: #1d576a; */
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    h1.bannerContent {
+        font-size: 1.7rem;
     }
 
 }

@@ -4,14 +4,20 @@ $(document).ready(function () {
 
 // $(".button-collapse").sideNav();
 
-// var instance = M.Carousel.init({
-//     fullWidth: true,
-//     indicators: true,
-//     duration: 200
-// });
-
 $(document).ready(function () {
-    $(".carousel").carousel()
+    $(".carousel").carousel({
+        dist: 0,
+        padding: 0,
+        fullWidth: true,
+        indicators: true,
+        duration: 100,
+    })
 });
 
 M.AutoInit();
+autoplay();
+
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
