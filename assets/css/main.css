@@ -12,8 +12,17 @@ body {
 }
 
 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
-    bottom: 200px;
+    bottom: 100px;
     margin-left: 60px;
+}
+
+.bannerText {
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+a.btn {
+    border-radius: 15px;
 }
 
 span#name {
@@ -44,7 +53,8 @@ span#name {
     }
 
     h1.bannerContent {
-        font-size: 1.7rem;
+        font-size: 3vw;
+
     }
 
 }
